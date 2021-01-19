@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(184, 252, 184);
+    color: rgb(4, 92, 4);
+    font-size: 18px;
+    font-family: fantasy;
+    align-items: center;
+    margin: 5%;
+}
+header{
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+section{
+    height: auto;
+    padding:0 10% 50px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    position:relative;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#funcionamento{
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+}
+#texto-tarefa{
+    border-radius: 5px;
+}
+#criar-tarefa{
+    margin-left: 20px;
+    background-color: rgb(0, 43, 0);
+    color: white;
+    font-size: 1em;
+    width: 17%;
+}
+.list{
+    cursor: pointer;
+    margin:1%;
+    font-size: 1.2em;
+}
+.selected{
+    background-color: rgb(128,128,128);
+}
+.completed{
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+#buttonContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    margin: 1% 0% 0% 0%;
+    height: 5%;
+    width: 80%;
+
+}
+.button1{
+    color: white;
+    width: 5%;
+    border-radius: 30%;
+    margin: 0 10px;
+}
+.button2{
+    color: white;
+    width: 20%;
+    border-radius: 30%;
+    margin: 0 10px;
+}
+#remover-selecionado{
+    background-color: rgb(119, 4, 4);
+}
+#mover-cima{
+    background-color: rgb(207, 194, 11);
+}
+#mover-baixo{
+    background-color: rgb(207, 194, 11);
+}
+#apaga-tudo{
+    background-color: rgb(119, 4, 4);
+}
+#remover-finalizados{
+    background-color: rgb(207, 83, 11);
+}
+#salvar-tarefas{
+    background-color: rgb(2, 4, 97);
+}
